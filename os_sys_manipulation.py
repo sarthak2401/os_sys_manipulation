@@ -11,7 +11,7 @@ a=subprocess.run(['ls','ltr'],shell=True,capture_output=True)
 #print(a.stdout)
 #print(a.stderr)
 if(a.returncode != 0):
-    print("sad")
+    print("happy")
 else:
     print("false")
     #f.close()
